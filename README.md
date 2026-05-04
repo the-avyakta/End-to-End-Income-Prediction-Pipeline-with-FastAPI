@@ -25,8 +25,8 @@ Class rep               precision    recall  f1-score   support
                     1       0.61      0.84      0.71      1568
 
     accuracy                           0.83      6513
-   macro avg       0.78      0.84      0.79      6513
-weighted avg       0.86      0.83      0.84      6513
+   macro_avg       0.78      0.84      0.79      6513
+weighted_avg       0.86      0.83      0.84      6513
 
 ## Run Locally
 - 1st Step : pip install -r requirements.txt

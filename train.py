@@ -3,7 +3,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
 from sklearn.model_selection import train_test_split, StratifiedKFold
 from data import load_data
-import sys
 from config import DATA_PATH
 from custom_pipeline import build_pipelines
 

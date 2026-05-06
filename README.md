@@ -34,4 +34,10 @@ weighted_avg       0.86      0.83      0.84      6513
 - 1st Step : pip install -r requirements.txt
 - 2nd Step : python train.py
 
+## Docker 
+- docker build -t census-api .
+- docker run -p 8000:8000 census-api
+
+
+--
 # Spread Love ❤

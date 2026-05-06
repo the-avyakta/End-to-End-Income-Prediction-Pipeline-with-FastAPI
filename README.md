@@ -18,6 +18,7 @@ Live URL ( Render ) - https://end-to-end-income-prediction-pipeline.onrender.com
 - pydantic
 
 ## Project Structure
+```text
 ├── api.py
 ├── config.py
 ├── custom_pipeline.py
@@ -27,6 +28,8 @@ Live URL ( Render ) - https://end-to-end-income-prediction-pipeline.onrender.com
 ├── features.py
 ├── requirements.txt
 └── train.py
+```
+
 
 ## Deployment:
 - Render
@@ -36,7 +39,7 @@ Live URL ( Render ) - https://end-to-end-income-prediction-pipeline.onrender.com
 - Accuracy 0.8314140948871488
 - Recall 0.84375
 
-```
+```text
 Class rep               precision    recall  f1-score   support
 
                     0       0.94      0.83      0.88      4945
@@ -63,5 +66,4 @@ docker run -p 8000:8000 census-api
 
 
 
---
 # Spread Love ❤
